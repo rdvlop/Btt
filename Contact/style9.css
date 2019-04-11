@@ -1,0 +1,181 @@
+*{
+	margin: 0;
+	padding: 0;
+} 
+.wrapper{ 
+width: 1170px;
+margin: auto;
+}
+
+header{
+	background: url("11.jpg"); 
+	height: 140vh;
+	-webkit-background-size: cover;
+	background-size: cover; 
+	background-position: center center;
+	position: relative;
+}
+
+.nav-area{
+	float:right; 
+	list-style: none;
+	margin-top: 30px;
+}
+.nav-area li{
+	display: inline-block; 
+}
+.nav-area li a{
+	color: #fff;
+	text-decoration: none; 
+	padding: 10px 30px;
+	font-family: poppins;
+	font-size: 20px;
+}
+.nav-area li a:hover{
+	background: #A79E8C; 
+	color: #fff;
+}
+.logo img{
+	width: 100px;
+	float: left;
+	height: auto;
+	border-style: outset ;
+}
+
+
+.contact-us{
+	position:absolute; 
+	top: 65%; 
+	left:50%; 
+	-webkit-transform: translate(-50%,-50%); 
+	-moz-transform: translate(-50%,-50%); 
+	-ms-transform: translate(-50%, -50%); 
+	-o-transform: translate(-50%,-50%);
+	transform: translate(-50%,-45%);
+	width: 400px; 
+	height: 970px; 
+	padding: 50px 40px;
+	background-image:url("3-1.png");
+	background-repeat: no-repeat; 
+	background-size: cover;
+	background-position: center; 	
+	border-radius: 10px;
+}
+
+.contact-us h1{
+	margin-top: 59px; 
+	padding: 10px; 
+	color: #000;
+	text-align: center; 
+	text-transform: uppercase;
+	font-size: 28px; 
+	font-family: Bahnschrift;
+	letter-spacing: 2px;
+}
+
+.contact-us h2{
+	margin-top: 0px; 
+	padding: 10px; 
+	color: #75726D;
+	text-align: center; 
+	text-transform: uppercase;
+	font-size: 28px; 
+	font-family: Bahnschrift;
+	letter-spacing: 2px;
+}
+
+.contact-us h4{
+	text-align: center; 
+	font-family: Bahnschrift; 
+	font-size: 16px; 
+	text-transform: uppercase; 
+	color: #000;
+	font-weight: bold;
+}
+	
+
+.contact h3{
+	margin:15px; 
+	padding : 0px 0px 20px; 
+	color : #000; 
+	text-align: center; 
+	text-transform:uppercase; 
+	font-size: 20px;
+	margin-bottom: -18px;
+}
+.contact p{
+	margin-top: 0px;
+	padding: 2px; 
+	font-weight: bold; 
+	color: #42403D;
+	font-size: 18px;
+	font-family: Bahnschrift;
+}
+
+	
+.contact input{
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+.contact input[type=text],
+.contact input[type=password],
+.contact input[type=email] {
+	border:none; 
+	border-bottom: 1px solid #fff; 
+	background: transparent; 
+	outline: none; 
+	height: 25px;
+	color: #000; 
+	font-size: 16px;
+	font-weight: bold;
+}
+.contact input:required{
+}
+.contact input:focus:invalid, textarea:focus:invalid{
+border-color: #FF0000;
+background-image:none; 
+}
+.contact input:focus:valid, textarea:focus:valid{
+border-color: #56C93F;
+background-image:none; 
+}
+
+.contact textarea:required {
+}
+
+.contact textarea:focus:invalid{
+	border-color: #FF0000; 
+	background-image:none; 
+}
+
+.contact textarea:focus:invalid {
+	border-color: #56C93F; 
+	background-image: none;
+}
+
+::placeholder {
+	color: #4870AE;
+}
+
+.contact input[type=submit]{
+	height: 50px;
+	color: #fff;
+	font-size: 20px; 
+	background: #A79E8C;
+	cursor: pointer; 
+	border-radius: 35px;
+	border:none; 
+	outline: none; 
+	margin-top: 8%;
+}
+
+#Statut{
+	width:310px; 
+	padding:15px; 
+	border-radius: 5px;
+	font-size: 15px;
+	font-family: Bahnschrift;
+	font-weight: bold;
+	text-align: center;
+	}

@@ -1,0 +1,44 @@
+*{
+	margin: 0;
+	padding: 0;
+} 
+.wrapper{ 
+width: 1170px;
+margin: auto;
+}
+header{
+	background-image: url("104.jpg"); 
+	height: 100vh;
+	-webkit-background-size: cover;
+	background-size: cover; 
+	background-position: center center;
+	position: relative;
+	overflow: hidden;
+}
+
+.nav-area{
+	float:left; 
+	list-style: none;
+	margin-top: 30px;
+}
+.nav-area li{
+	display: inline-block; 
+}
+.nav-area li a{
+	color: #fff;
+	text-decoration: none; 
+	padding: 10px 20px;
+	font-family: poppins;
+	font-size: 18px;
+}
+.nav-area li a:hover{
+	background: #fff; 
+	color: #F1742D;
+}
+.logo img{
+	width: 100px;
+	float: left;
+	height: auto;
+	border-style: outset ;
+}
+

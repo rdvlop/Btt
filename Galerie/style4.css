@@ -1,0 +1,298 @@
+*{
+	margin: 0;
+	padding: 0;
+} 
+.wrapper{ 
+width: 1170px;
+margin: auto;
+}
+
+.nav-area{
+	float:right; 
+	list-style: none;
+	margin-top: 30px;
+}
+.nav-area li{
+	display: inline-block; 
+}
+.nav-area li a{
+	color: #fff;
+	text-decoration: none; 
+	padding: 10px 30px;
+	font-family: poppins;
+	font-size: 20px;
+}
+.nav-area li a:hover{
+	background: #F4A460; 
+	color: #fff;
+}
+.logo img{
+	width: 100px;
+	float: left;
+	height: auto;
+	border-style: outset ;
+}
+body {
+	margin: 0; 
+	padding: 0; 
+	background-image: url("1.jpg");
+	background-position: center center ;
+	background-repeat: no-repeat; 
+	background-attachment: fixed;
+	-webkit-background-size: cover; 
+	background-size:cover;
+}
+
+
+.container {
+	width: 100%; 
+	height: 1535px; 
+	padding: 10px;
+}
+
+.container h{
+	border: 1px solid #fff; 
+	padding: 30px 45px; 
+	text-decoration: none; 
+	text-align: center;
+	text-transform: uppercase; 
+	font-size: 10px;
+	margin-top: 30px; 
+	display: inline-block; 
+	background : #F8B77E;
+	color: #fff;
+	width: 95%;
+}
+
+
+#One{
+border: transparent; }
+
+input[type="radio"] {
+	width: 185px; 
+	height: 112px; 
+	display: block-inline;
+	-webkit-appearance:none; 
+	margin-top: 0px;
+	top: 15px;
+	float: none;
+	cursor: pointer;
+}
+
+input[type="radio"]:checked {
+	border: 2px solid #fff; 
+}
+
+
+.display-image {
+	width: 950px;
+	height: 700px; 
+	border: 1px solid transparent;
+	position: absolute; 
+	top: 700px; 
+	right: 650px; 
+	left: 475px;
+	background-size: cover;
+	background-position: center center;
+	transition-duration: .9s; 
+}
+
+#Two {
+	background-image: url(2.jpg); 
+	background-size: cover;
+	background-position: center center ;
+	}
+	
+#Three {
+	background-image: url(3.jpg); 
+	background-size: cover;
+	background-position: center center ;
+	}
+	
+#Four {
+	background-image: url(4.jpg); 
+	background-size: cover;
+	background-position: center center ;
+	}
+	
+#Five {
+	background-image: url(5.jpg); 
+	background-size: cover;
+	background-position: center center ;
+	}
+	
+#Six {
+	background-image: url(6.jpg); 
+	background-size: cover;
+	background-position: center center ;
+	}
+	
+#Seven {
+	background-image: url(7.jpg); 
+	background-size: cover;
+	background-position: center center ;
+	}
+	
+#Eight {
+	background-image: url(8.jpg); 
+	background-size: cover;
+	background-position: center center ;
+	}
+	
+#Nine {
+	background-image: url(9.jpg); 
+	background-size: cover;
+	background-position: center center ;
+	}
+	
+#Ten {
+	background-image: url(10.jpg); 
+	background-size: cover;
+	background-position: center center ;
+	}
+	
+#Eleven {
+	background-image: url(11.jpg); 
+	background-size: cover;
+	background-position: center center ;
+	}
+	
+#Twelve {
+	background-image: url(12.jpg); 
+	background-size: cover;
+	background-position: center center ;
+	}
+	
+#Thirteen {
+	background-image: url(13.jpg); 
+	background-size: cover;
+	background-position: center center ;
+	}
+	
+#Fourteen {
+	background-image: url(14.jpg); 
+	background-size: cover;
+	background-position: center center ;
+	}
+	
+#Fiveteen {
+	background-image: url(15.jpg); 
+	background-size: cover;
+	background-position: center center ;
+	}
+	
+#Sixteen {
+	background-image: url(16.jpg); 
+	background-size: cover;
+	background-position: center center ;
+	}
+	
+#Seventeen {
+	background-image: url(17.jpg); 
+	background-size: cover;
+	background-position: center center ;
+	}
+	
+#Eighteen {
+	background-image: url(18.jpg); 
+	background-size: cover;
+	background-position: center center ;
+	}
+	
+#Nineteen {
+	background-image: url(19.jpg); 
+	background-size: cover;
+	background-position: center center ;
+	}
+	
+#Twenty {
+	background-image: url(20.jpg); 
+	background-size: cover;	
+	background-position: center center ;
+ }
+ 
+#Twenty-one {
+	background-image: url(21.jpg); 
+	background-size: cover;
+	background-position: center center ;
+	}
+
+#Two:checked ~ .display-image { 
+	background-image: url(2.jpg);
+}
+
+#Three:checked ~ .display-image { 
+	background-image: url(3.jpg);
+}
+
+#Four:checked ~ .display-image { 
+	background-image: url(4.jpg);
+}
+
+#Five:checked ~ .display-image { 
+	background-image: url(5.jpg);
+}
+
+#Six:checked ~ .display-image { 
+	background-image: url(6.jpg);
+}
+
+#Seven:checked ~ .display-image { 
+	background-image: url(7.jpg);
+}
+
+#Eight:checked ~ .display-image { 
+	background-image: url(8.jpg);
+}
+
+#Nine:checked ~ .display-image { 
+	background-image: url(9.jpg);
+}
+
+#Ten:checked ~ .display-image { 
+	background-image: url(10.jpg);
+}
+
+#Eleven:checked ~ .display-image { 
+	background-image: url(11.jpg);
+}
+
+#Twelve:checked ~ .display-image { 
+	background-image: url(12.jpg);
+}
+
+#Thirteen:checked ~ .display-image { 
+	background-image: url(13.jpg);
+}
+
+#Fourteen:checked ~ .display-image { 
+	background-image: url(14.jpg);
+}
+
+#Fiveteen:checked ~ .display-image { 
+	background-image: url(15.jpg);
+}
+
+#Sixteen:checked ~ .display-image { 
+	background-image: url(16.jpg);
+}
+
+#Seventeen:checked ~ .display-image { 
+	background-image: url(17.jpg);
+}
+
+#Eighteen:checked ~ .display-image { 
+	background-image: url(18.jpg);
+}
+
+#Nineteen:checked ~ .display-image { 
+	background-image: url(19.jpg);
+}
+
+#Twenty:checked ~ .display-image { 
+	background-image: url(20.jpg);
+}
+
+#Twenty-one:checked ~ .display-image { 
+	background-image: url(21.jpg);
+}
