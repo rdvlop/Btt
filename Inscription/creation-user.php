@@ -1,6 +1,5 @@
 <?php
 
-
 require "../DBConnexion.php" ;
 
 $mysqli=connexion();
