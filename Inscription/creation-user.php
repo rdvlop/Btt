@@ -1,11 +1,25 @@
 <?php
 
-$dbhost = 'localhost';
-$dbuser = 'admin';
-$dbpass = 'admin';
-$dbname = 'batuta';
 
-$db = new db($dbhost, $dbuser, $dbpass, $dbname);
+//require "../DBConnexion.php" ;
+
+$host = "localhost"; 
+$user = "root";
+$mdp = "root";
+$bdd = "Batuta";
+$mysqli;
+
+function connection() {
+    echo "<p>connexion...</p>"
+    $mysqli = new mysqli($host, $user, $mdp, $bdd ) ;
+    echo "<p>connecté...</p>"
+    if ( $mysqli->connect_errno ) {
+        die ("<p> Impossible de connecter à $bdd : " . $mysqli->connect_error . " </p>" ) ; 
+    }
+    return $mysqli;
+}
+
+$mysqli=connexion();
 
 $passwdConf = $_POST['passwd-conf'];
 $username = $_POST['username'];
@@ -28,11 +42,13 @@ $sql = 'INSERT INTO T_USER(USER_LOGIN, USER_FIRSTNAME, USER_LASTNAME, USER_EMAIL
 . $gender . ', '
 . $newsletter . ')';
 
-echo $sql;
 
-$db->query($sql);
+$result = $mysqli->query ($sql);
 
-header('Location: Bienvenue.html');
+if ( ! $result ){ 
+    header('Location: inscription.html');
+} else {
+    header('Location: Bienvenue.html');}
 
 
 ?>
